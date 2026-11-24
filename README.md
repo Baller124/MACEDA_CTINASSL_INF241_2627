@@ -4,11 +4,17 @@ Urban Roll
 
 A React + Vite prototype based on the provided Urban Roll login, sign-up, password reset, tea menu, sushi menu, and item-detail screens.
 
+## Repository layout
+
+- `URBAN/` contains the Urban Roll application.
+- `files/` contains the course activity PDF.
+
 ## Run locally
 
 Make sure the MongoDB Windows service is running. In one terminal, start the API:
 
 ```sh
+cd URBAN
 npm install
 npm run server
 ```
@@ -16,6 +22,7 @@ npm run server
 In a second terminal, start the frontend:
 
 ```sh
+cd URBAN
 npm run dev
 ```
 
